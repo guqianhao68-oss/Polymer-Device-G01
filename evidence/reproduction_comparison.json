@@ -1,0 +1,42 @@
+{
+  "dataset": "G01/regular",
+  "pipeline_commit": "a9b6b3ca7de4fc5e471a961b67e9fa057e797c80",
+  "test_environment": {
+    "python": "3.11.0b2",
+    "numpy": "2.1.0",
+    "pandas": "2.2.3",
+    "matplotlib": "3.9.2"
+  },
+  "original_input_manifest_and_desktop_data_match": true,
+  "original_manifest_file_hashes_verified": 9,
+  "provided_results_template_keys_match": true,
+  "null_or_nonfinite_values": 0,
+  "L2_trajectory_points": 56,
+  "L3_map_points": 100,
+  "L3_map_mean_fraction": 2.190088388420719e-18,
+  "L3_pass": false,
+  "L1_L2_L3_equal_to_prior_six_figure_release": true,
+  "runs": [
+    "Clean extracted directory with regular data and Git available",
+    "Clean extracted directory with regular data and Git absent from PATH",
+    "Clean local Git clone of integration commit"
+  ],
+  "outputs_byte_identical_across_runs": {
+    "Figure_4_L3_map.png": true,
+    "Figure_5_L3_validation.png": true,
+    "L1_correction_factor.png": true,
+    "Supplementary_L3_singular_values.png": true,
+    "model_figure.png": true,
+    "results.json": true,
+    "trajectory_figure.png": true
+  },
+  "output_sha256": {
+    "Figure_4_L3_map.png": "28301d133d2c929bdaa91caa8e5c15ae6b714b557eff5026756ed2b9eecb1537",
+    "Figure_5_L3_validation.png": "16ad081f554b109b93bf0d58c69ddbe0a19775cad8808b7f6a7de7269eeaf0ba",
+    "L1_correction_factor.png": "0c4651d71b24fbc6dd1fa6df5b7fff07f05ca06ad6a06de35830902e72bb8b74",
+    "Supplementary_L3_singular_values.png": "41c26b7497b352f1093d4fd4126d85f065ab02131a7c0aa1b86bde266502a015",
+    "model_figure.png": "6553dff58ee078c8a9737e0813cb5ad6d50fb4e1dd7ec5785f3ceaba42abed79",
+    "results.json": "0c7a47778ebcc18e4dbac1920c2eabcf42e51dc52ed31ec473c4c68b823ca637",
+    "trajectory_figure.png": "5492ef9463a9ee7d7b990f7346dc5e7bc4a8d07b7bbca4a5089ad0173fee6cc4"
+  }
+}
