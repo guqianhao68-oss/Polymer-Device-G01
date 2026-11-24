@@ -1,0 +1,29 @@
+{
+  "dataset": "G01/regular",
+  "analysis_commit": "9cfbf20cec7e8fb22f4ee60bd326a694bf73b3ab",
+  "platform": "Windows",
+  "python": "3.12.14",
+  "dependencies": "requirements.txt",
+  "first_command": "python reproduce.py",
+  "repeat_command": "python reproduce.py --output <fresh-output-directory>",
+  "exit_codes": [
+    0,
+    0
+  ],
+  "input_manifest_entries": 9,
+  "previous_reference_pipeline_commit": "b07056ec051bd2805d5e2fdbec00d7aa155059aa",
+  "matches_previous_reference_excluding_commit": true,
+  "numeric_comparison": {
+    "relative_tolerance": 1e-09,
+    "absolute_tolerance": 1e-12
+  },
+  "repeat_outputs_byte_identical": true,
+  "sha256": {
+    "results.json": "9a103f595d0bf641ea05cc1a1ec80175dc973e3118dc5959fb2410b2253ca331",
+    "Figure_4_L3_map.png": "ff10b734d607588905300ebee52ee26c37ac765ee386b50d6d8ae7e6fb8df1b8",
+    "Figure_5_L3_validation.png": "ae4a28a29e0102e1c3615cf8be758e9c3513b96bfa44dffd5ab84b9ee07f0bf3",
+    "L1_correction_factor.png": "92dc8166d2c3192fd3450a68992df25ff70c3fbe06edfa9c744d70640416fe5f",
+    "model_figure.png": "71cd4f44b1c26fa7f2b0e3f000f476409054b78e60c07f6245e4e5f627476903",
+    "trajectory_figure.png": "92186c77e6425099ab958bc376d8894f5a13ef7e463626b31b4fbd30d35f897d"
+  }
+}

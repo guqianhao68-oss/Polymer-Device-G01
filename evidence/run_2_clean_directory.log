@@ -1,0 +1,12 @@
+Analysis commit 9cfbf20cec7e8fb22f4ee60bd326a694bf73b3ab
+Command: python reproduce.py
+Exit code: 0
+L1 at 300 K, EF=0.098691150 eV, rho=569.692909 ohm/square, C=2.568738752, n_F=3.40525067e+11 cm^-2, mobility=32173.603558 cm^2/Vs
+L1 C=2 at 0.072762 eV and C=4 at 0.157347 eV
+L2 cone, Eg/kBT=0, bootstrap p16–p84=[0, 0], hard-gap selection=0.0%
+L2 cone RMS=0.010803, best hard-gap RMS=0.015919 at 0.5 kBT, EF range=[-0.080148, 0.161073] eV
+L2 Hall zero crossings: [(26, 27)]
+L3 row-sum maximum=1.67e-16, map mean=5.2e-19, eta0=0.00133099246
+L3 FWHM at (5, 5)=1.444295, at (2, 7)=1.303489 pitches
+L3 peak=0.0415837241, detection limit=3.3405371e-05. Clear fail because max|m| - δ95 = 4.155% > 3.0%. The 95% noise envelope reflects repeat noise only. The 3.0% regular-data specification is provisional.
+Validated G01 regular results and five report figures in <checkout>
