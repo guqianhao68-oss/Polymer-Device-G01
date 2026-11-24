@@ -1,0 +1,17 @@
+{
+  "dataset": "G01/regular",
+  "actual_integrated_commit": "5a10425b615263e8a9e66c71f66586e61e9b932c",
+  "L1_checkpoint_exact": true,
+  "L2_checkpoint_exact_all_56": true,
+  "L3_archived_checkpoint_exact_map_all_100": true,
+  "L3_archived_checkpoint_exact_features_resolution_detection_verdict": true,
+  "clean_directory_results_json_byte_identical": true,
+  "clean_directory_figures_byte_identical": {
+    "Figure_4_L3_map.png": true,
+    "Figure_5_L3_validation.png": true,
+    "L1_correction_factor.png": true,
+    "model_figure.png": true,
+    "trajectory_figure.png": true
+  },
+  "note": "Confidence wording clarified; original historical commit hashes not reused. Official executable validator not supplied."
+}

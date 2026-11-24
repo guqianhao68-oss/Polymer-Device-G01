@@ -1,0 +1,99 @@
+PASS: Threshold finite and positive 
+PASS: Manifest identity G01/regular 
+PASS: Manifest lists all nine source files 
+PASS: SHA256 L1_data.csv 
+PASS: SHA256 L1_params.json 
+PASS: SHA256 L2_data.csv 
+PASS: SHA256 L2_meta.json 
+PASS: SHA256 L3_A.npy 
+PASS: SHA256 L3_d.csv 
+PASS: SHA256 L3_meta.json 
+PASS: SHA256 README_FIRST.txt 
+PASS: SHA256 results_template.json 
+PASS: L1_params.json identity 
+PASS: L2_meta.json identity 
+PASS: L3_meta.json identity 
+PASS: results_template.json identity 
+PASS: Released source SHA256 
+PASS: Commit identifier valid 
+PASS: L1 input columns 
+PASS: L1 raw sweep finite and ordered 
+PASS: L1 sheet resistance matches metadata 
+PASS: L1 supplied band-edge sweep agrees with model 
+PASS: L1 correction monotonic 
+PASS: Columns match metadata 
+PASS: Finite raw data 
+PASS: Unique index-repeat pairs 
+PASS: Three repeats at every index 
+PASS: Positive longitudinal resistance 
+PASS: Measurement order is increasing 
+PASS: Mean Hall sign crossing exists [[26, 27]]
+PASS: Normalisation preserves Hall signs 
+PASS: Separate maxima equal one 
+PASS: Finite positive populations: Eg/kBT=0 
+PASS: Finite positive populations: Eg/kBT=0.5 
+PASS: Finite positive populations: Eg/kBT=0.75 
+PASS: Finite positive populations: Eg/kBT=1 
+PASS: Finite positive populations: Eg/kBT=1.25 
+PASS: Finite positive populations: Eg/kBT=1.5 
+PASS: Finite positive populations: Eg/kBT=1.75 
+PASS: Finite positive populations: Eg/kBT=2 
+PASS: Finite positive populations: Eg/kBT=2.25 
+PASS: Finite positive populations: Eg/kBT=2.5 
+PASS: Finite positive populations: Eg/kBT=2.75 
+PASS: Finite positive populations: Eg/kBT=3 
+PASS: Finite positive populations: Eg/kBT=3.25 
+PASS: Finite positive populations: Eg/kBT=3.5 
+PASS: Finite positive populations: Eg/kBT=3.75 
+PASS: Finite positive populations: Eg/kBT=4 
+PASS: Finite positive populations: Eg/kBT=4.25 
+PASS: Finite positive populations: Eg/kBT=4.5 
+PASS: Finite positive populations: Eg/kBT=4.75 
+PASS: Finite positive populations: Eg/kBT=5 
+PASS: Finite positive populations: Eg/kBT=5.25 
+PASS: Finite positive populations: Eg/kBT=5.5 
+PASS: Finite positive populations: Eg/kBT=5.75 
+PASS: Finite positive populations: Eg/kBT=6 
+PASS: Finite positive populations: Eg/kBT=6.25 
+PASS: Finite positive populations: Eg/kBT=6.5 
+PASS: Finite positive populations: Eg/kBT=6.75 
+PASS: Finite positive populations: Eg/kBT=7 
+PASS: Finite positive populations: Eg/kBT=7.25 
+PASS: Finite positive populations: Eg/kBT=7.5 
+PASS: Finite positive populations: Eg/kBT=7.75 
+PASS: Finite positive populations: Eg/kBT=8 
+PASS: Library shape [32, 400, 2]
+PASS: Scalar integration matches vectorised result (0,0) 
+PASS: Scalar integration matches vectorised result (0,199) 
+PASS: Scalar integration matches vectorised result (16,210) 
+PASS: Scalar integration matches vectorised result (31,399) 
+PASS: Electron-hole symmetry Eg/kBT=0 
+PASS: Neutrality Eg/kBT=0 
+PASS: Electron-hole symmetry Eg/kBT=4 
+PASS: Neutrality Eg/kBT=4 
+PASS: Electron-hole symmetry Eg/kBT=8 
+PASS: Neutrality Eg/kBT=8 
+PASS: Nearest-point vectorisation matches pointwise fit 
+PASS: Trajectory length equals unique indices 
+PASS: No EF-grid boundary assignments 
+STEPS 5-6 COMPLETE {"model": "cone", "Eg_kT": 0.0, "r_cone": 0.010803079997276283, "r_gap": 0.01591914421272862}
+PASS: Bootstrap complete and finite 
+PASS: Bootstrap intervals ordered 
+PASS: L3 dimensions 
+PASS: L3 finite readings 
+PASS: L3 uniform offset is unobservable 1.6653345369377348e-16
+PASS: L3 map finite and zero mean 
+PASS: Exact top-level and phase keys match supplied template 
+PASS: No null or non-finite values 
+PASS: Results identity 
+PASS: L1 positive numeric outputs 
+PASS: L2 exactly 56 finite energy assignments 
+PASS: L2 model and nonnegative gap uncertainty 
+PASS: L3 exactly 100 finite zero-mean pixels 
+PASS: L3 positive resolution and detection limit 
+PASS: L3 feature coordinates and amplitude match map 
+PASS: L3 boolean verdict matches stated threshold 
+PASS: JSON round-trip equality 
+PASS: All five report figures generated 
+Completed G01/regular; L1 + L2 + L3 and five figures in /tmp/g01_fresh_run/output
+L1: {'correction_factor': 2.5687387524263974, 'n_fermi_op_cm2': 340525066575.5357, 'mobility_corrected_cm2_Vs': 32173.603557984392} L2: {'model': 'cone', 'Eg_kT': 0.0, 'Eg_uncertainty_kT': 0.0} L3 peak: 0.04158372410098002 L3 pass: False
